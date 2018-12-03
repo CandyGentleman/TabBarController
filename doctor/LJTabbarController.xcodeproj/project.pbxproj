@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D59444621AFEBE60001D2F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59444521AFEBE60001D2F2 /* AppDelegate.m */; };
+		3D59444E21AFEBEA0001D2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D59444D21AFEBEA0001D2F2 /* Assets.xcassets */; };
+		3D59445121AFEBEA0001D2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D59444F21AFEBEA0001D2F2 /* LaunchScreen.storyboard */; };
+		3D59445421AFEBEA0001D2F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59445321AFEBEA0001D2F2 /* main.m */; };
+		3D59445E21AFEBEA0001D2F2 /* LJTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59445D21AFEBEA0001D2F2 /* LJTabbarControllerTests.m */; };
+		3D59446921AFEBEA0001D2F2 /* LJTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59446821AFEBEA0001D2F2 /* LJTabbarControllerUITests.m */; };
+		3D59447821AFECEA0001D2F2 /* LJTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59447721AFECEA0001D2F2 /* LJTabbarController.m */; };
+		3D59447B21AFED050001D2F2 /* LJTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59447A21AFED050001D2F2 /* LJTabbar.m */; };
+		3D59448621AFEE150001D2F2 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59447F21AFEE150001D2F2 /* MineViewController.m */; };
+		3D59448721AFEE150001D2F2 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59448221AFEE150001D2F2 /* HomeViewController.m */; };
+		3D59448821AFEE150001D2F2 /* C2CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59448421AFEE150001D2F2 /* C2CViewController.m */; };
+		3D59448C21AFEF240001D2F2 /* LJNaviControllrer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59448B21AFEF240001D2F2 /* LJNaviControllrer.m */; };
+		3D59448F21AFF0630001D2F2 /* C3CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59448E21AFF0630001D2F2 /* C3CViewController.m */; };
+		3D59449221AFF0710001D2F2 /* C4CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59449121AFF0710001D2F2 /* C4CViewController.m */; };
+		3D59449921AFF3810001D2F2 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D59449721AFF3810001D2F2 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D59445A21AFEBEA0001D2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D59443921AFEBE60001D2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D59444021AFEBE60001D2F2;
+			remoteInfo = LJTabbarController;
+		};
+		3D59446521AFEBEA0001D2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D59443921AFEBE60001D2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D59444021AFEBE60001D2F2;
+			remoteInfo = LJTabbarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D59444121AFEBE60001D2F2 /* LJTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D59444421AFEBE60001D2F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D59444521AFEBE60001D2F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D59444D21AFEBEA0001D2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D59445021AFEBEA0001D2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D59445221AFEBEA0001D2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D59445321AFEBEA0001D2F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D59445921AFEBEA0001D2F2 /* LJTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D59445D21AFEBEA0001D2F2 /* LJTabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTabbarControllerTests.m; sourceTree = "<group>"; };
+		3D59445F21AFEBEA0001D2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D59446421AFEBEA0001D2F2 /* LJTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D59446821AFEBEA0001D2F2 /* LJTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTabbarControllerUITests.m; sourceTree = "<group>"; };
+		3D59446A21AFEBEA0001D2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D59447621AFECEA0001D2F2 /* LJTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJTabbarController.h; sourceTree = "<group>"; };
+		3D59447721AFECEA0001D2F2 /* LJTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTabbarController.m; sourceTree = "<group>"; };
+		3D59447921AFED050001D2F2 /* LJTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJTabbar.h; sourceTree = "<group>"; };
+		3D59447A21AFED050001D2F2 /* LJTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJTabbar.m; sourceTree = "<group>"; };
+		3D59447E21AFEE150001D2F2 /* C2CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C2CViewController.h; sourceTree = "<group>"; };
+		3D59447F21AFEE150001D2F2 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		3D59448021AFEE150001D2F2 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		3D59448221AFEE150001D2F2 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3D59448321AFEE150001D2F2 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3D59448421AFEE150001D2F2 /* C2CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C2CViewController.m; sourceTree = "<group>"; };
+		3D59448A21AFEF240001D2F2 /* LJNaviControllrer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJNaviControllrer.h; sourceTree = "<group>"; };
+		3D59448B21AFEF240001D2F2 /* LJNaviControllrer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJNaviControllrer.m; sourceTree = "<group>"; };
+		3D59448D21AFF0630001D2F2 /* C3CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C3CViewController.h; sourceTree = "<group>"; };
+		3D59448E21AFF0630001D2F2 /* C3CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C3CViewController.m; sourceTree = "<group>"; };
+		3D59449021AFF0710001D2F2 /* C4CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = C4CViewController.h; sourceTree = "<group>"; };
+		3D59449121AFF0710001D2F2 /* C4CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = C4CViewController.m; sourceTree = "<group>"; };
+		3D59449721AFF3810001D2F2 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3D59449821AFF3810001D2F2 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D59443E21AFEBE60001D2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59445621AFEBEA0001D2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59446121AFEBEA0001D2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D59443821AFEBE60001D2F2 = {
+			isa = PBXGroup;
+			children = (
+				3D59444321AFEBE60001D2F2 /* LJTabbarController */,
+				3D59445C21AFEBEA0001D2F2 /* LJTabbarControllerTests */,
+				3D59446721AFEBEA0001D2F2 /* LJTabbarControllerUITests */,
+				3D59444221AFEBE60001D2F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D59444221AFEBE60001D2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D59444121AFEBE60001D2F2 /* LJTabbarController.app */,
+				3D59445921AFEBEA0001D2F2 /* LJTabbarControllerTests.xctest */,
+				3D59446421AFEBEA0001D2F2 /* LJTabbarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D59444321AFEBE60001D2F2 /* LJTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				3D59449621AFF3810001D2F2 /* UIView+Frame */,
+				3D59447D21AFEDE50001D2F2 /* Controllers */,
+				3D59447C21AFED8D0001D2F2 /* Base */,
+				3D59444421AFEBE60001D2F2 /* AppDelegate.h */,
+				3D59444521AFEBE60001D2F2 /* AppDelegate.m */,
+				3D59444D21AFEBEA0001D2F2 /* Assets.xcassets */,
+				3D59444F21AFEBEA0001D2F2 /* LaunchScreen.storyboard */,
+				3D59445221AFEBEA0001D2F2 /* Info.plist */,
+				3D59445321AFEBEA0001D2F2 /* main.m */,
+			);
+			path = LJTabbarController;
+			sourceTree = "<group>";
+		};
+		3D59445C21AFEBEA0001D2F2 /* LJTabbarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D59445D21AFEBEA0001D2F2 /* LJTabbarControllerTests.m */,
+				3D59445F21AFEBEA0001D2F2 /* Info.plist */,
+			);
+			path = LJTabbarControllerTests;
+			sourceTree = "<group>";
+		};
+		3D59446721AFEBEA0001D2F2 /* LJTabbarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D59446821AFEBEA0001D2F2 /* LJTabbarControllerUITests.m */,
+				3D59446A21AFEBEA0001D2F2 /* Info.plist */,
+			);
+			path = LJTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		3D59447C21AFED8D0001D2F2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3D59447621AFECEA0001D2F2 /* LJTabbarController.h */,
+				3D59447721AFECEA0001D2F2 /* LJTabbarController.m */,
+				3D59448A21AFEF240001D2F2 /* LJNaviControllrer.h */,
+				3D59448B21AFEF240001D2F2 /* LJNaviControllrer.m */,
+				3D59447921AFED050001D2F2 /* LJTabbar.h */,
+				3D59447A21AFED050001D2F2 /* LJTabbar.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3D59447D21AFEDE50001D2F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D59448321AFEE150001D2F2 /* HomeViewController.h */,
+				3D59448221AFEE150001D2F2 /* HomeViewController.m */,
+				3D59447E21AFEE150001D2F2 /* C2CViewController.h */,
+				3D59448421AFEE150001D2F2 /* C2CViewController.m */,
+				3D59448D21AFF0630001D2F2 /* C3CViewController.h */,
+				3D59448E21AFF0630001D2F2 /* C3CViewController.m */,
+				3D59449021AFF0710001D2F2 /* C4CViewController.h */,
+				3D59449121AFF0710001D2F2 /* C4CViewController.m */,
+				3D59448021AFEE150001D2F2 /* MineViewController.h */,
+				3D59447F21AFEE150001D2F2 /* MineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D59449621AFF3810001D2F2 /* UIView+Frame */ = {
+			isa = PBXGroup;
+			children = (
+				3D59449821AFF3810001D2F2 /* UIView+Frame.h */,
+				3D59449721AFF3810001D2F2 /* UIView+Frame.m */,
+			);
+			path = "UIView+Frame";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D59444021AFEBE60001D2F2 /* LJTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D59446D21AFEBEA0001D2F2 /* Build configuration list for PBXNativeTarget "LJTabbarController" */;
+			buildPhases = (
+				3D59443D21AFEBE60001D2F2 /* Sources */,
+				3D59443E21AFEBE60001D2F2 /* Frameworks */,
+				3D59443F21AFEBE60001D2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJTabbarController;
+			productName = LJTabbarController;
+			productReference = 3D59444121AFEBE60001D2F2 /* LJTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D59445821AFEBEA0001D2F2 /* LJTabbarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D59447021AFEBEA0001D2F2 /* Build configuration list for PBXNativeTarget "LJTabbarControllerTests" */;
+			buildPhases = (
+				3D59445521AFEBEA0001D2F2 /* Sources */,
+				3D59445621AFEBEA0001D2F2 /* Frameworks */,
+				3D59445721AFEBEA0001D2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D59445B21AFEBEA0001D2F2 /* PBXTargetDependency */,
+			);
+			name = LJTabbarControllerTests;
+			productName = LJTabbarControllerTests;
+			productReference = 3D59445921AFEBEA0001D2F2 /* LJTabbarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D59446321AFEBEA0001D2F2 /* LJTabbarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D59447321AFEBEA0001D2F2 /* Build configuration list for PBXNativeTarget "LJTabbarControllerUITests" */;
+			buildPhases = (
+				3D59446021AFEBEA0001D2F2 /* Sources */,
+				3D59446121AFEBEA0001D2F2 /* Frameworks */,
+				3D59446221AFEBEA0001D2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D59446621AFEBEA0001D2F2 /* PBXTargetDependency */,
+			);
+			name = LJTabbarControllerUITests;
+			productName = LJTabbarControllerUITests;
+			productReference = 3D59446421AFEBEA0001D2F2 /* LJTabbarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D59443921AFEBE60001D2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "刘鹿杰的mac";
+				TargetAttributes = {
+					3D59444021AFEBE60001D2F2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3D59445821AFEBEA0001D2F2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D59444021AFEBE60001D2F2;
+					};
+					3D59446321AFEBEA0001D2F2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D59444021AFEBE60001D2F2;
+					};
+				};
+			};
+			buildConfigurationList = 3D59443C21AFEBE60001D2F2 /* Build configuration list for PBXProject "LJTabbarController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D59443821AFEBE60001D2F2;
+			productRefGroup = 3D59444221AFEBE60001D2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D59444021AFEBE60001D2F2 /* LJTabbarController */,
+				3D59445821AFEBEA0001D2F2 /* LJTabbarControllerTests */,
+				3D59446321AFEBEA0001D2F2 /* LJTabbarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D59443F21AFEBE60001D2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D59445121AFEBEA0001D2F2 /* LaunchScreen.storyboard in Resources */,
+				3D59444E21AFEBEA0001D2F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59445721AFEBEA0001D2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59446221AFEBEA0001D2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D59443D21AFEBE60001D2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D59449921AFF3810001D2F2 /* UIView+Frame.m in Sources */,
+				3D59448F21AFF0630001D2F2 /* C3CViewController.m in Sources */,
+				3D59447821AFECEA0001D2F2 /* LJTabbarController.m in Sources */,
+				3D59445421AFEBEA0001D2F2 /* main.m in Sources */,
+				3D59448621AFEE150001D2F2 /* MineViewController.m in Sources */,
+				3D59449221AFF0710001D2F2 /* C4CViewController.m in Sources */,
+				3D59447B21AFED050001D2F2 /* LJTabbar.m in Sources */,
+				3D59448821AFEE150001D2F2 /* C2CViewController.m in Sources */,
+				3D59448721AFEE150001D2F2 /* HomeViewController.m in Sources */,
+				3D59448C21AFEF240001D2F2 /* LJNaviControllrer.m in Sources */,
+				3D59444621AFEBE60001D2F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59445521AFEBEA0001D2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D59445E21AFEBEA0001D2F2 /* LJTabbarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D59446021AFEBEA0001D2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D59446921AFEBEA0001D2F2 /* LJTabbarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D59445B21AFEBEA0001D2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D59444021AFEBE60001D2F2 /* LJTabbarController */;
+			targetProxy = 3D59445A21AFEBEA0001D2F2 /* PBXContainerItemProxy */;
+		};
+		3D59446621AFEBEA0001D2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D59444021AFEBE60001D2F2 /* LJTabbarController */;
+			targetProxy = 3D59446521AFEBEA0001D2F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D59444F21AFEBEA0001D2F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D59445021AFEBEA0001D2F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D59446B21AFEBEA0001D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D59446C21AFEBEA0001D2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D59446E21AFEBEA0001D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = LJTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyao.LJTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D59446F21AFEBEA0001D2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = LJTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyao.LJTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D59447121AFEBEA0001D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = LJTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyao.LJTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJTabbarController.app/LJTabbarController";
+			};
+			name = Debug;
+		};
+		3D59447221AFEBEA0001D2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = LJTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyao.LJTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJTabbarController.app/LJTabbarController";
+			};
+			name = Release;
+		};
+		3D59447421AFEBEA0001D2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = LJTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyao.LJTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJTabbarController;
+			};
+			name = Debug;
+		};
+		3D59447521AFEBEA0001D2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X88Z35WBQ;
+				INFOPLIST_FILE = LJTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woyao.LJTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LJTabbarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D59443C21AFEBE60001D2F2 /* Build configuration list for PBXProject "LJTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D59446B21AFEBEA0001D2F2 /* Debug */,
+				3D59446C21AFEBEA0001D2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D59446D21AFEBEA0001D2F2 /* Build configuration list for PBXNativeTarget "LJTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D59446E21AFEBEA0001D2F2 /* Debug */,
+				3D59446F21AFEBEA0001D2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D59447021AFEBEA0001D2F2 /* Build configuration list for PBXNativeTarget "LJTabbarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D59447121AFEBEA0001D2F2 /* Debug */,
+				3D59447221AFEBEA0001D2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D59447321AFEBEA0001D2F2 /* Build configuration list for PBXNativeTarget "LJTabbarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D59447421AFEBEA0001D2F2 /* Debug */,
+				3D59447521AFEBEA0001D2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D59443921AFEBE60001D2F2 /* Project object */;
+}
