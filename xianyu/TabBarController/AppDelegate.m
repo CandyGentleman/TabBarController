@@ -22,6 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"11111111");
     NSLog(@"22222222");
+    NSLog(@"33333333");
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     LJTabbarController *tabBarVc = [[LJTabbarController alloc] init];
 
