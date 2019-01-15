@@ -25,6 +25,7 @@
 		3D85382321B154DE0078EF4E /* LJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D85382221B154DD0078EF4E /* LJMineViewController.m */; };
 		3D94490121B4E68D00070BBB /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D94490021B4E68D00070BBB /* UIImage+Image.m */; };
 		3D94490421B4E7DF00070BBB /* LJPlusBtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D94490321B4E7DF00070BBB /* LJPlusBtnViewController.m */; };
+		3D98C3B221EDB928006FEB70 /* LJCeshiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D98C3B121EDB928006FEB70 /* LJCeshiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		3D94490021B4E68D00070BBB /* UIImage+Image.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		3D94490221B4E7DF00070BBB /* LJPlusBtnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJPlusBtnViewController.h; sourceTree = "<group>"; };
 		3D94490321B4E7DF00070BBB /* LJPlusBtnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJPlusBtnViewController.m; sourceTree = "<group>"; };
+		3D98C3B021EDB928006FEB70 /* LJCeshiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJCeshiViewController.h; sourceTree = "<group>"; };
+		3D98C3B121EDB928006FEB70 /* LJCeshiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJCeshiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,8 @@
 				3D85380E21B151850078EF4E /* LJTabbar.m */,
 				3D85380F21B151860078EF4E /* LJTabbarController.h */,
 				3D85380C21B151850078EF4E /* LJTabbarController.m */,
+				3D98C3B021EDB928006FEB70 /* LJCeshiViewController.h */,
+				3D98C3B121EDB928006FEB70 /* LJCeshiViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 				3D85382321B154DE0078EF4E /* LJMineViewController.m in Sources */,
 				3D85382021B154C70078EF4E /* LJMeassageViewController.m in Sources */,
 				3D8537D721B141650078EF4E /* AppDelegate.m in Sources */,
+				3D98C3B221EDB928006FEB70 /* LJCeshiViewController.m in Sources */,
 				3D85381D21B154B30078EF4E /* LJFishViewController.m in Sources */,
 				3D85381A21B154750078EF4E /* LJHomeViewController.m in Sources */,
 			);
