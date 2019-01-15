@@ -46,8 +46,8 @@
     return self;
 }
 
-- (void)layoutSubviews
-{
+- (void)layoutSubviews{
+    
     [super layoutSubviews];
     //系统自带的按钮类型是UITabBarButton，找出这些类型的按钮，然后重新排布位置，空出中间的位置
     Class class = NSClassFromString(@"UITabBarButton");
@@ -58,7 +58,6 @@
     
     self.plusBtn.lj_size = CGSizeMake(self.plusBtn.currentBackgroundImage.size.width, self.plusBtn.currentBackgroundImage.size.height);
     
-    
     UILabel *label = [[UILabel alloc] init];
     label.text = @"发布";
     label.font = [UIFont systemFontOfSize:11];
@@ -67,8 +66,6 @@
     [self addSubview:label];
     label.lj_centerX = self.plusBtn.lj_centerX;
     label.lj_centerY = CGRectGetMaxY(self.plusBtn.frame) + LJMagin ;
-    
-    
     
     int btnIndex = 0;
     for (UIView *btn in self.subviews) {//遍历tabbar的子控件
@@ -81,7 +78,6 @@
             if (btnIndex == 2) {
                 btnIndex++;
             }
-            
         }
     }
     

@@ -30,12 +30,11 @@
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    
     Class class = NSClassFromString(@"UITabBarButton");
     int btnIndex = 0;
     for (UIView *btn in self.subviews){
         if ([btn isKindOfClass:class]) {
-            if (btnIndex == 2) {
+            if (btnIndex == 2) { // btnIndex == 2 的时候， 为中间按钮， 添加一个背景图片
                 self.imageView.frame = CGRectMake(5, -17, btn.lj_width - 10, btn.lj_height + 17);
                 [btn insertSubview:self.imageView atIndex:0];
                 self.btn = btn;
