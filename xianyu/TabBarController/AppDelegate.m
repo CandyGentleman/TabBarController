@@ -24,6 +24,7 @@
     NSLog(@"22222222");
     NSLog(@"33333333");
     NSLog(@"44444444");
+    NSLog(@"55555555");
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     LJTabbarController *tabBarVc = [[LJTabbarController alloc] init];
 
